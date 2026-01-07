@@ -372,6 +372,7 @@ header .row {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-width: 1280px;
 }
 
 .feature__row {
@@ -1373,6 +1374,29 @@ footer {
     margin-bottom: 80px;
   }
 
+.header__description {
+  position: relative;
+}
+
+  .header__email {
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+  }
+
+  .header__email--input {
+    position: static;
+  }
+
+  .header__email--btn {
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+    margin-bottom: 0px;
+    line-height: 1.5;
+  }
+
   .section__title {
     text-align: center;
     font-size: 28px;
@@ -1380,5 +1404,40 @@ footer {
 
   .quality__description {
     margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .steps__img {
+    padding-bottom: 16px;
+    width: 100%;
+  }
+
+#steps .section__tag {
+  text-align: center;
+}
+
+  .steps__description {
+    width: 100%;
+  }
+
+  .testimonials__img,
+  .values__img {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+
+  .values__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .value__para {
+    text-align: left;
+  }
+
+  .testimonials__description {
+    width: 100%;
   }
 }
