@@ -1378,22 +1378,28 @@ footer {
   position: relative;
 }
 
+.header__description--para {
+  margin-bottom: 24px;
+}
+
   .header__email {
-    margin: 0 auto;
+    margin: 24px auto 0;
+    height: auto;
     flex-direction: column;
     position: relative;
     text-align: center;
   }
 
   .header__email--input {
-    position: static;
+    position: relative;
+    padding: 20px 32px;
+    margin-bottom: 16px;
   }
 
   .header__email--btn {
     width: 100%;
     padding: 16px 0;
-    margin: 16px 0;
-    margin-bottom: 0px;
+    margin: 0;
     line-height: 1.5;
   }
 
